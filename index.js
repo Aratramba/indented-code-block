@@ -3,8 +3,6 @@
 
 var WHITESPACE_REGEX = /^\s*/g;
 
-var rebase = require('rebase-indent');
-
 
 /**
  * get code block starting at line
@@ -49,7 +47,6 @@ function byLine(src, lineNumber){
     break;
   }
 
-  block = rebase(block);
   return block.join('\n');
 }
 

@@ -26,7 +26,7 @@ test('By string: div', function(assert){
 
 test('By string: head', function(assert){
   var actual = byString(source, 'head');
-  var expected = 'head\n  title my jade template';
+  var expected = '  head\n    title my jade template';
 
   assert.deepEqual(actual, expected, 'Searching for "head" should return a string.');
   assert.end();

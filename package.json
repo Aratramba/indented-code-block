@@ -1,6 +1,6 @@
 {
   "name": "indented-code-block",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Get indented code block",
   "main": "index.js",
   "scripts": {
@@ -25,8 +25,5 @@
   "devDependencies": {
     "faucet": "0.0.1",
     "tape": "^4.2.0"
-  },
-  "dependencies": {
-    "rebase-indent": "^1.0.2"
   }
 }

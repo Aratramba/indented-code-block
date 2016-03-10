@@ -20,7 +20,7 @@ test('By line', function(assert){
   assert.equal(actual, expected, 'should be code block at line 1');
   
   actual = byLine(source, 5);
-  expected = '';
+  expected = '    ';
   assert.equal(actual, expected, 'should be space at line 5');
   
   actual = byLine(source, 6);
@@ -44,7 +44,7 @@ test('By line', function(assert){
   assert.equal(actual, expected, 'should be code block at line 23');
   
   actual = byLine(source, 24);
-  expected = 'head\n  title my jade template';
+  expected = '  head\n    title my jade template';
   assert.equal(actual, expected, 'should be code block at line 24');
   
   actual = byLine(source, 28);
