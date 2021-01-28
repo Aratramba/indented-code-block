@@ -1,6 +1,6 @@
 {
   "name": "indented-code-block",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Get indented code block",
   "main": "index.js",
   "scripts": {
